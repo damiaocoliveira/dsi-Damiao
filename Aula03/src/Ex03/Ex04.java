@@ -4,7 +4,33 @@
  */
 package Ex03;
 
+import javax.swing.JOptionPane; 
 
 public class Ex04 {
+    public static void main(String[] args) {
+       
+        int ladoA, ladoB, ladoC; 
+        
+        try{
+            
+             ladoA = Integer.parseInt(JOptionPane.showInputDialog("Isira o lado A: "));   
+              ladoB = Integer.parseInt(JOptionPane.showInputDialog("Isira o lado B: "));   
+               ladoC = Integer.parseInt(JOptionPane.showInputDialog("Isira o lado C: "));   
+              
+             
+            
+            
+            
+            
+            
+            
+            
+            
+        }catch(Exception e){
+            
+        }
+    }
+
+
     
 }
